@@ -65,7 +65,7 @@ monogatari.assets ('images', {
 
 // Define the backgrounds for each scene.
 monogatari.assets ('scenes', {
-	"Scene1": "scene1.png",
+	"Scene1": "scene1.svg",
 	"Scene2": "scene2.png",
 
 
