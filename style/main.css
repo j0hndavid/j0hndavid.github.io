@@ -19,8 +19,8 @@
 
 @font-face {
     font-family: 'Thailandesa';
-    src: url('Thailandesa.woff2') format('woff2'),
-        url('Thailandesa.woff') format('woff');
+    src: url('https://github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.woff2') format('woff2'),
+        url('https://github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
