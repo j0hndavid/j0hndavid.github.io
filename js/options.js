@@ -80,7 +80,7 @@ monogatari.settings({
 	// to portrait or landscape, a warning message will be displayed so the
 	// player rotates its device.
 	// Possible values: any, portrait or landscape.
-	'Orientation': 'landscape',
+	'Orientation': 'any',
 
 	// Allow players to skip through the game. Similar to the auto play feature,
 	// skipping will allow players to go through the game really fast.
@@ -134,7 +134,7 @@ monogatari.preferences ({
 
 	// Initial Volumes from 0.0 to 1.
 	'Volume': {
-		'Music': 1,
+		'Music': .5,
 		'Voice': 1,
 		'Sound': 1,
 		'Video': 1
