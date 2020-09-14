@@ -21,8 +21,8 @@
 
 @font-face {
     font-family: 'Thailandesa';
-    src: url('https/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.eot');
-    src: url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.eot?#iefix') format('embedded-opentype'),
+    src: url('/assets/fonts/Thailandesa.eot');
+    src: url('assets/fonts/Thailandesa.eot?#iefix') format('embedded-opentype'),
         url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.woff2') format('woff2'),
         url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.woff') format('woff'),
         url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.ttf') format('truetype'),
