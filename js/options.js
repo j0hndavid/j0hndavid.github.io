@@ -74,13 +74,13 @@ monogatari.settings({
 	// Enables or disables the typing animation for the special centered
 	// character. If the TypeAnimation property was set to false, the centered
 	// character won't shown the animation even if this is set to true.
-	'CenteredTypeAnimation': true,
+	'CenteredTypeAnimation': false,
 
 	// Force some orientation on mobile devices. If this setting is set either
 	// to portrait or landscape, a warning message will be displayed so the
 	// player rotates its device.
 	// Possible values: any, portrait or landscape.
-	'Orientation': 'any',
+	'Orientation': any,
 
 	// Allow players to skip through the game. Similar to the auto play feature,
 	// skipping will allow players to go through the game really fast.
@@ -150,5 +150,7 @@ monogatari.preferences ({
 	// Speed at which the Auto Play feature will show the next statement
 	// It is measured in seconds and starts counting after the text is
 	// completely displayed.
-	'AutoPlaySpeed': 5
+	'AutoPlaySpeed': 5,
+
+	'display': 'fullscreen'
 });

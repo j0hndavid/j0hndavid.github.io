@@ -25,6 +25,10 @@
 
 const { $_ready, $_ } = Monogatari;
 
+    
+    
+
+
 // 1. Outside the $_ready function:
 
 
