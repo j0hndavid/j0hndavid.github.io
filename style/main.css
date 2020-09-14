@@ -19,35 +19,7 @@
 **/
 
 
-@font-face {
-    font-family: 'Thailandesa';
-    src: url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.eot');
-    src: url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.eot?#iefix') format('embedded-opentype'),
-        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.woff2') format('woff2'),
-        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.woff') format('woff'),
-        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.ttf') format('truetype'),
-        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.svg#Thailandesa') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
 
-@font-face {
-    font-family: 'Thailandesa';
-    src: url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa_1.eot');
-    src: url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa_1.eot?#iefix') format('embedded-opentype'),
-        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa_1.woff2') format('woff2'),
-        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa_1.woff') format('woff'),
-        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa_1.ttf') format('truetype'),
-        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa_1.svg#Thailandesa') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-
-
-
-
-   /* font-display: swap;*/
 
 
 /* General Style */
@@ -376,7 +348,7 @@ input[type=range]::-ms-fill-upper {
 		}
 
 
-		
+
 	}
 		
 
