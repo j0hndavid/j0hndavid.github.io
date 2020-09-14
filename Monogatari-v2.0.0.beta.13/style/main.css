@@ -1,0 +1,319 @@
+/**
+ * =============================================================================
+ * This is the file where all your styling should go in.
+ * Instead of modifying the styles found in the monogatari.css file or others,
+ * you should overwrite those styles in this file.
+ *
+ * The CSS selectors shown are not an extensive list but they are the most
+ * common you might want to change. To find what other elements are available,
+ * you can take a look at the monogatari.css file or use your browser's dev
+ * tools to inspect the elements.
+ * =============================================================================
+**/
+
+/**
+ * ===========================
+ * General Styling
+ * ===========================
+**/
+
+/* General Style */
+body {
+	background-color: #020001;
+	font-size: 1.3rem;
+	/*color: black
+	*/
+}
+
+h1 {
+font-family: thailandesa;
+font-size: 9rem;
+	color: #fffc31;
+	margin: .17em auto .02em;
+	line-height: 8rem;
+	animation: fadeIn;
+	animation-duration: 3s;
+}
+
+div.herojin {
+	content: url(/assets/ui/herojin.png) ;
+	margin: 0;
+	position: absolute;
+	top: 60%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	
+}
+
+
+.modal__content {
+	background-image: repeating-linear-gradient(45deg, hsla(9,19%,100%,0.05) 0px, hsla(9,19%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(9,19%,100%,0.05) 11px, hsla(9,19%,100%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(0deg, hsla(9,19%,100%,0.05) 0px, hsla(9,19%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(9,19%,100%,0.05) 11px, hsla(9,19%,100%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(45deg, hsla(9,19%,100%,0.05) 0px, hsla(9,19%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(9,19%,100%,0.05) 11px, hsla(9,19%,100%,0.05) 12px,transparent 12px, transparent 32px),repeating-linear-gradient(135deg, hsla(9,19%,100%,0.05) 0px, hsla(9,19%,100%,0.05) 1px,transparent 1px, transparent 11px,hsla(9,19%,100%,0.05) 11px, hsla(9,19%,100%,0.05) 12px,transparent 12px, transparent 32px),linear-gradient(90deg, rgb(158, 93, 28),rgb(233, 249, 55));
+	
+}
+
+
+
+/* Simple Button styles*/
+button {
+	outline: none;
+	background:#510000;
+	color: #fff;
+	
+
+}
+
+/* Simple Button Style on Hover */
+button:hover { 
+	background:rgb(145, 13, 3);
+
+  }
+.button:active {
+  box-shadow: 0 5px 10px 0px rgba(0,0,0,0.22), 0 10px 13px 0px rgba(0,0,0,0.34), inset 0 3px 3px 0 rgba(255,255,255,0.35), inset 0 -3px 3px 0 rgba(0,0,0,0.10);
+  backface-visibility: hidden;
+
+	
+}
+
+/* General Styling for Menu Screens */
+[data-screen] {
+	
+}
+
+/**
+ * ===========================
+ * Main Menu Styling
+ * ===========================
+**/
+
+/* Main Menu Styling */
+[data-screen="main"]  {
+	background-color: #020001;
+	background-image:  url(/assets/ui/main-screen.png);
+	opacity: 100%;
+	animation: fadeIn;
+	animation-duration: 2s;
+
+	
+}
+
+
+/* Main Menu Buttons Styling */
+[data-screen="main"] button {
+	
+
+		
+}
+	
+
+[data-component="main-menu"] {
+	display: inline-block;
+	align-self: center;	
+	margin-bottom: .5rem;
+
+	animation: fadeIn;
+	animation-duration: 2s;
+	
+
+}
+
+
+
+/**
+ * ===========================
+ * Save and Load Menus Styling
+ * ===========================
+**/
+
+/* Slots Style */
+[data-component="save-slot"] figure {
+
+}
+
+/* Slot's Image Style */
+[data-component="save-slot"] img {
+
+}
+
+/* Slots Title Style */
+[data-component="save-slot"] figcaption {
+
+}
+
+
+/* Slots Delete Button Style */
+[data-component="save-slot"] button {
+
+}
+
+/**
+ * ===========================
+ * Game Elements Styling
+ * ===========================
+**/
+
+/* Choice Buttons style */
+[data-component="choice-container"] button {
+	
+
+}
+
+/* Choice Button Style on Hover */
+[data-component="choice-container"] button:hover {
+	
+
+}
+
+/* Text Box styling */
+[data-component="text-box"] {
+	
+	min-height: 22%;
+    max-height: 22%;
+
+
+}
+
+[data-ui=who]:not(:empty) {
+
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+
+
+}
+
+/* Character Name Style */
+[data-ui="who"] {
+
+}
+
+/* Style for Centered Text */
+[data-component="centered-dialog"] {
+
+color: whitesmoke;
+}
+
+/* Character Images Styles */
+[data-screen="game"] [data-character] {
+
+}
+
+/* Other Images Styles */
+[data-screen="game"] [data-image= "badge"] {
+
+
+		position: fixed;
+		margin: 4%;
+
+}
+
+/*[data-component="agent-terminal"] {
+
+background-image: radial-gradient(circle at center center, rgb(30, 108, 204),rgb(36, 61, 118));
+margin: 5%;
+
+}
+*/
+
+/**
+ * ===========================
+ * Quick Menu Styling
+ * ===========================
+**/
+
+/* These styles are applied to the Mobile version of the Quick Menu */
+
+/* Quick Menu Style */
+[data-component="quick-menu"] {
+
+
+}
+ 
+[data-component="settings-screen"] {
+	background-color:grey;
+}
+
+/* Quick Menu Buttons Style */
+[data-component="quick-menu"] span {
+
+}
+
+/* Quick Menu Buttons Style on Hover */
+[data-component="quick-menu"] span:hover {
+
+}
+
+/* Quick Menu Buttons Icon Style */
+[data-component="quick-menu"] > span > .fa {
+
+}
+
+/**
+ * ===========================
+ * Range Styling
+ * ===========================
+**/
+
+/* Use the background property to set a color for these */
+input[type=range]:focus::-webkit-slider-runnable-track {
+
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+
+}
+
+input[type=range]:focus::-ms-fill-upper {
+
+}
+
+input[type=range]:focus::-ms-fill-lower {
+
+}
+
+input[type=range]::-moz-range-track {
+
+}
+
+input[type=range]::-ms-fill-lower {
+
+}
+
+input[type=range]::-ms-fill-upper {
+
+}
+
+@media screen and (max-width: 415px) {
+	h1 {
+	  font-size: 25vw;
+	  line-height: 23vw;
+	}
+
+	[data-component="text-box"]{
+		min-height: 33%;
+		max-height: 33%;
+	}
+
+	[data-content=character-expression] {
+
+		margin-bottom: 100%;
+	}
+/* Styles for the desktop version of the Quick Menu*/
+@media screen and (min-width: 37.56255em) {
+
+	/* Quick Menu Style */
+	[data-component="quick-menu"] {
+
+	}
+
+	/* Quick Menu Buttons Style */
+	[data-component="quick-menu"] span {
+
+	}
+
+	/* Quick Menu Buttons Style on Hover */
+	[data-component="quick-menu"] span:hover {
+
+	}
+
+}
+}
