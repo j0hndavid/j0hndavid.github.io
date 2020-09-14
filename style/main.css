@@ -21,12 +21,12 @@
 
 @font-face {
     font-family: 'Thailandesa';
-    src: url('https://github.com/j0hndavid/j0hndavid.github.io/blob/7fbb0b454cd1af591af41441339fecf95b31b03b/assets/fonts/Thailandesa.eot');
-    src: url('https://github.com/j0hndavid/j0hndavid.github.io/blob/7fbb0b454cd1af591af41441339fecf95b31b03b/assets/fonts/Thailandesa.eot?#iefix') format('embedded-opentype'),
-        url('https://github.com/j0hndavid/j0hndavid.github.io/blob/7fbb0b454cd1af591af41441339fecf95b31b03b/assets/fonts/Thailandesa.woff2') format('woff2'),
-        url('https://github.com/j0hndavid/j0hndavid.github.io/blob/7fbb0b454cd1af591af41441339fecf95b31b03b/assets/fonts/Thailandesa.woff') format('woff'),
-        url('https://github.com/j0hndavid/j0hndavid.github.io/blob/7fbb0b454cd1af591af41441339fecf95b31b03b/assets/fonts/Thailandesa.ttf') format('truetype'),
-        url('https://github.com/j0hndavid/j0hndavid.github.io/blob/7fbb0b454cd1af591af41441339fecf95b31b03b/assets/fonts/Thailandesa.svg') format('svg');
+    src: url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.eot');
+    src: url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.eot?#iefix') format('embedded-opentype'),
+        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.woff2') format('woff2'),
+        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.woff') format('woff'),
+        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.ttf') format('truetype'),
+        url('https/github.com/j0hndavid/j0hndavid.github.io/tree/master/assets/fonts/Thailandesa.svg#Thailandesa') format('svg');
     font-weight: normal;
     font-style: normal;
 }
