@@ -15,7 +15,7 @@
  * ===========================
  * General Styling
  * ===========================
-**/
+
 
 @font-face {
     font-family: 'Thailandesa';
@@ -40,6 +40,35 @@
     font-weight: normal;
     font-style: normal;
 }
+**/
+
+
+@media only screen and (max-width: 320px) {
+@font-face {
+    font-family: 'Thailandesa';
+    src: url('https://github.com/j0hndavid/j0hndavid.github.io/blob/master/assets/fonts/Thailandesa.svg') format('svg');
+    font-weight: normal;OpenSans
+    font-style: normal;
+}
+}
+@media only screen and (max-device-width: 720px) and (orientation:portrait) {
+    @font-face {
+        font-family: 'Thailandesa';
+        src: url('https://github.com/j0hndavid/j0hndavid.github.io/blob/master/assets/fonts/Thailandesa.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+}
+@media only screen and (max-device-width: 1280px) and (orientation:landscape) {
+    @font-face {
+        font-family: 'Thailandesa';
+        src: url('https://github.com/j0hndavid/j0hndavid.github.io/blob/master/assets/fonts/Thailandesa.svg') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+}
+
 
    /* font-display: swap;*/
 
