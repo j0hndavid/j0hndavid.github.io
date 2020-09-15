@@ -132,7 +132,7 @@ monogatari.script ({
 		'a Hello there Agent {{player.name}}, looks like they sent me another rookie.',
 		`a Well, let's get you to work.`,
 		`a Your orders are to analyse the case files and monitor social media for any signs the "Buddha Cop" production may be moving ahead.`,
-		'a Oh and the drivel you are about to read is full of lies, the writer even wrote me into the screenplay.',
+		'a Oh and let me warn you, the drivel you are about to read is full of lies, the writer even wrote me into the screenplay.',
 		`a Careful, maybe they'll put you in it too!`,
 		`a We need to put a stop to this.`,
 		{
@@ -166,7 +166,7 @@ monogatari.script ({
 
 	'BuddhaCop': [
 		'show image synopsis.png center fadeIn',
-		'a so what do you think?',
+		'a sounds dumb right?',
 		'show scene Scene5 with fadeIn',
 		'Thailand 2021.',
 		'Wat Bodhi protected forrest area.',
