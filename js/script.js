@@ -67,6 +67,8 @@ monogatari.assets ('images', {
 monogatari.assets ('scenes', {
 	"Scene1": "scene1.svg",
 	"Scene2": "scene2.png",
+	"Scene5": "scene5.png",
+	"Scene6": "scene6.png",
 
 
 	
@@ -122,16 +124,20 @@ monogatari.script ({
 		'show background repeating-linear-gradient(90deg, rgba(25, 208, 33,0.1) 0px, rgba(25, 208, 33,0.1) 1px,transparent 1px, transparent 13px),repeating-linear-gradient(180deg, rgba(25, 208, 33,0.1) 0px, rgba(25, 208, 33,0.1) 1px,transparent 1px, transparent 13px),linear-gradient(180deg, rgb(51, 68, 134),rgb(22,30,72)) with fadeIn',
 		"show image badge with fadeIn",
 		
-		'Thank you {{player.name}}. {pause:1200} Level 3 security access granted.', 
+		'Thank you {{player.name}}. {pause:1400} ... Level 3 security access granted.', 
 		'centered You are authorized to review case files for “Buddha Cop the Movie”.',
-		'Col. Achara is your commanding officer, you wll be direct linked now.', 
+		'Col. Achara is your Commanding Officer, I will establish a direct link for you now.', 
 		'Please standby...', 
-		'wait 2000',
-		'a Agent {{player.name}}, your orders are to analyse the case files and monitor social media for signs this production may be moving ahead.',
-		'a It is time to get to work.',
+		'wait 1800',
+		'a Hello there Agent {{player.name}}, looks like they sent me another rookie.',
+		`a Well, let's get you to work.`,
+		`a Your orders are to analyse the case files and monitor social media for any signs the "Buddha Cop" production may be moving ahead.`,
+		'a Oh and the drivel you are about to read is full of lies, the writer even wrote me into the screenplay.',
+		`a Careful, maybe they'll put you in it too!`,
+		`a We need to put a stop to this.`,
 		{
 			'Choice': {
-				'Dialog': 'a Are you ready to review the case files?',
+				'Dialog': 'a So {{player.name}}, are you ready to review the case files?',
 				'Yes': {
 					'Text': 'Yes',
 					'Do': 'jump Yes'
@@ -152,7 +158,7 @@ monogatari.script ({
 			'Choice': {
 				'BuddhaCop':{
 					'Text': 'Buddha Cop - The Movie',
-					'Do': 'jump BuddhaCop'
+					'Do': 'jump BuddhaCop',
 				}
 			}
 		}
@@ -161,6 +167,9 @@ monogatari.script ({
 	'BuddhaCop': [
 		'show image synopsis.png center fadeIn',
 		'a so what do you think?',
+		'show scene Scene5 with fadeIn',
+		'Thailand 2021.',
+		'show scene Scene6 with fadeIn,',
 	
 
 			
