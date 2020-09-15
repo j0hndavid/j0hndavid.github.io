@@ -169,7 +169,9 @@ monogatari.script ({
 		'a so what do you think?',
 		'show scene Scene5 with fadeIn',
 		'Thailand 2021.',
+		'Wat Bodhi protected forrest area.',
 		'show scene Scene6 with fadeIn,',
+		'Jin stops to collect alms from a young girl.',
 	
 
 			
