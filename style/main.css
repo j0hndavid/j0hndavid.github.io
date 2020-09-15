@@ -185,7 +185,7 @@ button:hover {
 	
 	min-height: 21%;
     max-height: 21%;
-
+    grid-template-columns: 10rem;
 
 }
 
@@ -312,7 +312,9 @@ input[type=range]::-ms-fill-upper {
 
 	[data-content=character-expression] {
 
-		margin-bottom: 50%;
+		/*margin-bottom: 50%;*/
+		object-fit: sc;
+}
 	}
 /* Styles for the desktop version of the Quick Menu*/
 @media screen and (min-width: 37.56255em) {

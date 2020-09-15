@@ -94,7 +94,7 @@ monogatari.script ({
 	// The game starts here.
 	'Start': [
 		'show scene Scene1 with fadeIn',
-		'The webstie for "Buddha Cop The Movie" has been deemed inappropriate.',
+		'<center>The webstie for "Buddha Cop The Movie" has been deemed inappropriate.</center>',
 		 'Those authorized may proceed for investigative purposes only.',
 		
 		{
@@ -172,6 +172,9 @@ monogatari.script ({
 		'Wat Bodhi protected forrest area.',
 		'show scene Scene6 with fadeIn,',
 		'Jin stops to collect alms from a young girl.',
+		'nvl Here is an example of NVL text.',
+'nvl Here is some more NVL text.',
+'nvl One more line.',
 	
 
 			
