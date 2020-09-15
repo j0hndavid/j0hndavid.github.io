@@ -184,7 +184,8 @@ button:hover {
 [data-component="text-box"] {
 	
 	min-height: 21%;
-    max-height: 21%;
+	max-height: 33%;
+	
    
 }
 [data-component]:before {

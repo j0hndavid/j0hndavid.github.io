@@ -95,7 +95,7 @@ monogatari.script ({
 	'Start': [
 		'show scene Scene1 with fadeIn',
 		'<center>The webstie for "Buddha Cop The Movie" has been deemed inappropriate.</center>',
-		 'Those authorized may proceed for investigative purposes only.',
+		 '<center>Those authorized may proceed for investigative purposes only.</center>',
 		
 		{
 			'Input': {
