@@ -183,14 +183,14 @@ button:hover {
 /* Text Box styling */
 [data-component="text-box"] {
 	
-	/*min-height: 21%;
-	max-height: 33%;*/
+	min-height: 25%;
+	max-height: 35%;
 	
    
 }
 [data-component]:before {
 
-	grid-template-columns: 10rem;
+	width: min(100px, 10%);
 
 }
 
@@ -198,8 +198,9 @@ button:hover {
 
 [data-ui=who]:not(:empty) {
 
-	padding-top: .3rem;
+	/*padding-top: .3rem;
 	padding-bottom: .3rem;
+	*/
 
 
 }
@@ -313,15 +314,15 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	[data-component="text-box"]{
-		min-height: 40%;
-		max-height: 40%;
+		/*min-height: 40%;
+		max-height: 40%;*/
 	}
 
 	[data-content=character-expression] {
 
 		/*margin-bottom: 50%;
-		width: min(110px, 10%);*/
-		object-fit: cover;
+		width: min(110px, 10%);
+		object-fit: cover;*/
 		
 }
 	}
@@ -343,7 +344,6 @@ input[type=range]::-ms-fill-upper {
 
 	}
 
-}
 }
 
 		
