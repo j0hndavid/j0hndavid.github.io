@@ -35,8 +35,8 @@
 /* General Style */
 body {
 	background-color: #020001;
-	font-size: 1.3rem;
-	/*color: black
+	/*font-size: 1.3rem;
+	color: black
 	*/
 }
 
@@ -183,8 +183,8 @@ button:hover {
 /* Text Box styling */
 [data-component="text-box"] {
 	
-	min-height: 21%;
-	max-height: 33%;
+	/*min-height: 21%;
+	max-height: 33%;*/
 	
    
 }
