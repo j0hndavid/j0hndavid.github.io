@@ -313,14 +313,16 @@ input[type=range]::-ms-fill-upper {
 	}
 
 	[data-component="text-box"]{
-		min-height: 30%;
-		max-height: 30%;
+		min-height: 40%;
+		max-height: 40%;
 	}
 
 	[data-content=character-expression] {
 
-		/*margin-bottom: 50%;*/
-		object-fit: sc;
+		/*margin-bottom: 50%;
+		width: min(110px, 10%);*/
+		object-fit: cover;
+		
 }
 	}
 /* Styles for the desktop version of the Quick Menu*/
