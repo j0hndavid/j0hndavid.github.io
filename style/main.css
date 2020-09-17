@@ -68,7 +68,11 @@ div.herojin {
 	
 }
 
-
+.unnamed {
+	margin: 2rem auto;
+	/*text-indent: 3rem;
+	margin-top: 2rem;*/
+}
 
 /* Simple Button styles*/
 button {
@@ -90,6 +94,7 @@ button:hover {
 
 	
 }
+
 
 /* General Styling for Menu Screens */
 [data-screen] {
@@ -188,6 +193,14 @@ button:hover {
 	
    
 }
+
+[data-component="text-box"] {
+	
+}
+
+
+
+
 [data-component]:before {
 
 	width: min(100px, 10%);
