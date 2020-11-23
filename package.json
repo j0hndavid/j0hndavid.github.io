@@ -3,8 +3,8 @@
   "productName": "Buddha Cop",
   "version": "0.1.0",
   "main": "engine/electron/index.js",
-  "description": "Interactive Web Comic",
-  "author": "John David",
+  "description": "A description of your game",
+  "author": "Your Name",
   "license": "MIT",
   "homepage": "https://example.com",
   "build": {
@@ -47,9 +47,10 @@
     "build:linux": "yarn electron-builder -l"
   },
   "devDependencies": {
-    "@babel/core": "^7.11.1",
-    "electron": "^9.2.0",
-    "electron-builder": "^22.8.0",
+    "@babel/core": "^7.12.3",
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1",
+    "electron-notarize": "^1.0.0",
     "http-server": "^0.12.3",
     "parcel": "^1.12.4"
   }

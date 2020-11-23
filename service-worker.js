@@ -1,7 +1,7 @@
 'use strict';
 
 // The name of your game, no spaces or special characters.
-const name = 'BuddhaCop';
+const name = 'Buddhacop';
 
 // The version of the cache, changing this will force everything to be cached
 // again.

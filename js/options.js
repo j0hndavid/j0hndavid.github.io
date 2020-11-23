@@ -17,7 +17,7 @@ monogatari.settings({
 	// The name of your game, this will be used to store all the data so once
 	// you've released a game using one name, it shouldn't change. Please use the
 	// Version Setting to indicate a new release of your game!
-	'Name': 'Buddha Cop',
+	'Name': 'Buddha Cop - Woke Vengence',
 
 	// The version of your game in semantic versioning (https://semver.org/).
 	'Version': '0.1.0',
@@ -31,8 +31,14 @@ monogatari.settings({
 	// Change to true for a MultiLanguage GameScreen.
 	'MultiLanguage': false,
 
+	// If the 'Multilanguage' setting is set to `true`. This will enable a
+	// language selection screen that will be shown before the asset loading
+	// screen. If set to false, the loading screen will appear first instead and
+	// players will have to change the language from the settings screen.
+	'LanguageSelectionScreen': true,
+
 	// Music for the Main Menu.
-	'MainScreenMusic': "track1" ,
+	'MainScreenMusic': 'track1',
 
 	// Prefix for the Save Slots in Local Storage.
 	'SaveLabel': 'Save',
@@ -52,12 +58,12 @@ monogatari.settings({
 
 	// The Aspect Ratio your background images are on. This only has effect on
 	// web deployed novels if forceAspectRatio flag is on.
-	'AspectRatio': '2:1',
+	'AspectRatio': '16:9',
 
 	// Force aspect ratio, it will make all images to comply with aspect ratio.
 	// Values: 'None' (don't force), 'Visuals' (force only visuals)
 	// or 'Global' (force all game)
-	'ForceAspectRatio': 'global',
+	'ForceAspectRatio': 'None',
 
 	// Enables or disables the typing text animation for the whole game.
 	'TypeAnimation': true,
